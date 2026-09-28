@@ -50,7 +50,7 @@ HTML
 ### 1. Clone the repository
 
 
-git clone https://github.com/YOUR-USERNAME/docker-flask-app.git
+git clone https://github.com/NARESH838/docker-app.git
 
 
 Move into the project directory:
@@ -103,6 +103,11 @@ View application logs:
 
 docker logs flask-container
 
+ Also using docker hub 
+
+ docker pull nareshnb357/flask-app
+
+ docker run -d -p 5000:5000 --name conatiner-name nareshnb357/flask-app
 
 ## What I Learned
 
